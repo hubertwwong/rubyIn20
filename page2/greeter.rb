@@ -3,6 +3,8 @@ class Greeter
 	# constructor.
 	def initialize(name = "world")
 		# @name is a instance variable.
+		# note that @name is internal...
+		# need attr_accessor if you want the variable to be accessible to the public.
 		@name = name
 	end
 	
